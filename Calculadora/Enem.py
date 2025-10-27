@@ -232,7 +232,7 @@ print('Matematica = ' , Mat)
 print('Natureza = ' , Nat)
 print('Humanas = ' , Hum)
 print('Redação = ' , Red )
-print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
+print('')
 print('Media Final: ' , media)
 print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
 
