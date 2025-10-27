@@ -1,4 +1,4 @@
-QuestãoTotal = 90
+QuestaoTotal = 90
 
 # Registro 
 print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
@@ -189,26 +189,26 @@ print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄�
 while True:
     try:
         feitas1 = float(input('Quantas questões você acertou na primeira prova (0 a 90): '))
-        if 0 <= feitas1 <= QuestãoTotal:
+        if 0 <= feitas1 <= QuestaoTotal:
             break  # valor válido, sai do loop
         else:
-            print(f'Digite um número entre 0 e {QuestãoTotal}!')
+            print(f'Digite um número entre 0 e {QuestaoTotal}!')
     except ValueError:
         print('Digite um número válido!')
 
-porcentagem1 = (feitas1 / QuestãoTotal) * 100
+porcentagem1 = (feitas1 / QuestaoTotal) * 100
 
 while True:
     try:
         feitas2 = float(input('Quantas questões você acertou na primeira prova (0 a 90): '))
-        if 0 <= feitas1 <= QuestãoTotal:
+        if 0 <= feitas1 <= QuestaoTotal:
             break  # valor válido, sai do loop
         else:
-            print(f'Digite um número entre 0 e {QuestãoTotal}!')
+            print(f'Digite um número entre 0 e {QuestaoTotal}!')
     except ValueError:
         print('Digite um número válido!')
 
-porcentagem2 = (feitas2 / QuestãoTotal) * 100
+porcentagem2 = (feitas2 / QuestaoTotal) * 100
 
 # Porcentagem
 
