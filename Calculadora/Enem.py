@@ -210,41 +210,32 @@ while True:
 
 porcentagem2 = (feitas2 / QuestaoTotal) * 100
 
+PorcentagemTotal1 = ( feitas1 + feitas2 ) / 180
+PorcentagemTotal2 = (PorcentagemTotal1) * 100
+
 # Porcentagem
 
 # Final
 print('')
 print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
-print('')
-
-print('Nome: ' , NomeDoAulo1)
-print('Sobre Nome: ' , NomeDoAulo2)
-print('Idade: ' , Idade)
-print('Colegio: ' , Colegio)
-print('Série: ' , Serie)
-
-print('')
+print('Informação')
+print('Nome:', NomeDoAulo1)
+print('Sobre Nome:', NomeDoAulo2)
+print('Idade:', Idade)
+print('Colegio:', Colegio)
+print('Série:', Serie)
 print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
-print('')
-
-print('Linguagens = ' , Lin)
-print('Matematica = ' , Mat)
-print('Natureza = ' , Nat)
-print('Humanas = ' , Hum)
-print('Redação = ' , Red )
-print('')
-print('Media Final: ' , media)
+print('Provas Media')
+print('Linguagens = ', Lin)
+print('Matematica = ', Mat)
+print('Natureza = ', Nat)
+print('Humanas = ', Hum)
+print('Redação = ', Red )
+print('Media Final:' , media)
 print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
-
-print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
-print("Prova - 1 ; Porcentagem de gestão feita:", porcentagem1 , "%")
-print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
-
-print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
-print("Prova - 2 ; Porcentagem de gestão feita:", porcentagem2 , "%")
-print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
-
-print('')
+print('Prova - 1 ; |' ,feitas1, '|Porcentagem de gestão feita:', porcentagem1 , '%')
+print('Prova - 2 ; |' ,feitas2, '|Porcentagem de gestão feita:', porcentagem2 , '%')
+print('Pocentagem Total:' , PorcentagemTotal2)
 print('──┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈────┈┈┈┄┄╌╌╌╌┄┄┈┈┈──')
 print('')
 
