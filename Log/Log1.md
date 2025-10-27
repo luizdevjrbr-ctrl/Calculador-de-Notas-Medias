@@ -1,7 +1,3 @@
-# Calculador-de-Notas-Medias
-
-| Calculador de Notas [Medias] / Vertibulares Suportados / ENEM , UECE |
-
 Atualização 0.0.2
 
 ---
