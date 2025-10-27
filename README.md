@@ -13,4 +13,4 @@
 - Em Breve | UECE - Universidade Estadual Do Ceará |
 - Em Breve | UERJ - Universidade Estadual Do Rio de Janeiro |
 
-### Obrigado pela a atenção <3
+### Obrigado pela a atenção <3 | Dia :27/10/2025 Hora:18:10 |
